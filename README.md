@@ -58,9 +58,6 @@ A sophisticated Telegram bot designed for managing multiple Telegram accounts th
 
 ## 🔧 Technical Specifications
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/mrVXBoT/account-manager-telegram/main/assets/architecture.png" alt="Architecture" width="500">
-</div>
 
 ### Dependencies
 - **Python 3.9+**: Modern Python features for clean, efficient code
@@ -89,9 +86,6 @@ A sophisticated Telegram bot designed for managing multiple Telegram accounts th
 
 ## 💻 Installation
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/mrVXBoT/account-manager-telegram/main/assets/installation.png" alt="Installation" width="450">
-</div>
 
 ### Prerequisites
 
@@ -160,9 +154,7 @@ docker run -d --name telegram-account-manager \
 
 ## 🚀 Usage Guide
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/mrVXBoT/account-manager-telegram/main/assets/usage.png" alt="Usage Guide" width="450">
-</div>
+
 
 ### Basic Commands
 
@@ -232,9 +224,6 @@ docker run -d --name telegram-account-manager \
 
 ## 🔐 Security Considerations
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/mrVXBoT/account-manager-telegram/main/assets/security.png" alt="Security" width="400">
-</div>
 
 - **Local Storage**: All data is stored locally on your device, not on external servers
 - **Session Protection**: Session strings are stored with proper encryption
