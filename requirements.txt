@@ -2,3 +2,5 @@ telebot==0.0.5
 telethon==1.28.5
 python-telegram-bot==13.15
 asyncio==3.4.3
+pip install pyfiglet
+termcolor colorama
