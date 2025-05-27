@@ -61,7 +61,7 @@ A sophisticated Telegram bot designed for managing multiple Telegram accounts th
 
 2. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/telegram-account-manager.git
+   git clone https://github.com/mrVXBoT/account-manager-telegram.git
    cd telegram-account-manager
    ```
 
@@ -81,7 +81,7 @@ A sophisticated Telegram bot designed for managing multiple Telegram accounts th
 
 6. Run the bot:
    ```bash
-   python acc_new.py
+   python VX-acc.py
    ```
 
 ## 🚀 Usage Guide
