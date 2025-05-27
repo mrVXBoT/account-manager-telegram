@@ -37,6 +37,8 @@ A sophisticated Telegram bot designed for managing multiple Telegram accounts th
 - **Single-Message Interface**: All interactions happen by editing a single message
 - **Clean Navigation**: Intuitive keyboard-based navigation system
 - **Real-time Updates**: See changes immediately without message clutter
+- **Multi-language Support**: Full support for English and Persian languages
+- **Beautiful Symbols**: Enhanced UI with elegant chess and special symbols
 
 ## 🔧 Technical Specifications
 
@@ -54,6 +56,8 @@ A sophisticated Telegram bot designed for managing multiple Telegram accounts th
   - `AccountManager`: Manages account operations
   - `Keyboards`: Generates interactive keyboards
   - `Messages`: Stores message templates
+  - `Language`: Manages multi-language support (English/Persian)
+- **Internationalization**: Complete language switching capability with all UI elements
 
 ## 💻 Installation
 
@@ -75,11 +79,16 @@ A sophisticated Telegram bot designed for managing multiple Telegram accounts th
    mkdir data
    ```
 
-5. Configure the bot by editing the `Config` class in `acc_new.py`:
+5. Rename the main file from `acc_new.py` to `VX-acc.py`:
+   ```bash
+   mv acc_new.py VX-acc.py
+   ```
+
+6. Configure the bot by editing the `Config` class in `VX-acc.py`:
    - Add your Telegram bot token
    - Set appropriate paths for session storage
 
-6. Run the bot:
+7. Run the bot:
    ```bash
    python VX-acc.py
    ```
@@ -88,24 +97,33 @@ A sophisticated Telegram bot designed for managing multiple Telegram accounts th
 
 1. Start a conversation with your bot by sending `/start`
 
-2. **Adding an Account**:
-   - Click "Add Account"
+2. **Language Selection**:
+   - Use `/eng` command to switch to English
+   - Use `/fa` command to switch to Persian (فارسی)
+   - All UI elements will update instantly to the selected language
+
+3. **Adding an Account**:
+   - Click "Add Account" (or "افزودن حساب" in Persian)
    - Enter your API hash, API ID, and phone number
    - Complete the verification process
 
-3. **Managing Accounts**:
+4. **Managing Accounts**:
    - Click "Show Accounts" to see all added accounts
    - Select an account to view details and management options
 
-4. **Editing Profiles**:
+5. **Editing Profiles**:
    - Select an account and click "Edit Profile"
    - Choose what you want to edit (first name, last name, username, bio)
 
-5. **Using Mass Actions**:
+6. **Using Mass Actions**:
    - From the main menu, select the desired tool:
      - "Send Message" to message users with all accounts
      - "Join Channel" to join a channel with all accounts
      - "Send Reaction" to react to messages with all accounts
+
+7. **Session Management**:
+   - Click "Manage Sessions" to view and control active sessions
+   - Terminate individual sessions or all other sessions at once
 
 ## 🔐 Security Considerations
 
