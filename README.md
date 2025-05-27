@@ -79,11 +79,6 @@ A sophisticated Telegram bot designed for managing multiple Telegram accounts th
    mkdir data
    ```
 
-5. Rename the main file from `acc_new.py` to `VX-acc.py`:
-   ```bash
-   mv acc_new.py VX-acc.py
-   ```
-
 6. Configure the bot by editing the `Config` class in `VX-acc.py`:
    - Add your Telegram bot token
    - Set appropriate paths for session storage
