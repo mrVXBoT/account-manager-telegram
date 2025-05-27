@@ -16,15 +16,10 @@
 
 A sophisticated Telegram bot designed for managing multiple Telegram accounts through an elegant, streamlined interface. This tool stands out with its innovative single-message UI that updates in real-time, eliminating message clutter and providing a seamless user experience.
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/mrVXBoT/account-manager-telegram/main/assets/demo.gif" alt="Demo" width="400">
-</div>
+
 
 ## ⚡ Key Features
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/mrVXBoT/account-manager-telegram/main/assets/features.png" alt="Features" width="500">
-</div>
 
 ### Account Management
 - **Add Multiple Accounts**: Easily add and manage multiple Telegram accounts
