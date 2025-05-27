@@ -5,3 +5,4 @@ asyncio==3.4.3
 pip install pyfiglet
 pip install termcolor
 pip install colorama
+pip install python-dotenv
