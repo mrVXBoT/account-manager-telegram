@@ -9,7 +9,6 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![Channel](https://img.shields.io/badge/Channel-@L27__0-purple?style=for-the-badge&logo=telegram)](https://t.me/L27_0)
 
-<img src="https://raw.githubusercontent.com/mrVXBoT/account-manager-telegram/main/assets/banner.png" alt="Telegram Account Manager Banner" width="600">
 
 </div>
 
